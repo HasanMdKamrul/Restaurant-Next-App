@@ -8,23 +8,23 @@ import {
   MdPhone,
   MdProductionQuantityLimits,
 } from "react-icons/md";
+import pizzaIcon from "../../public/img/FoodIcons/Yellow Cute Cartoon Pizza Food Logo (1).svg";
 import burgerIcon from "../../public/img/FoodIcons/Yellow Cute Cartoon Pizza Food Logo (2).svg";
-import pizzaIcon from "../../public/img/FoodIcons/Yellow Cute Cartoon Pizza Food Logo (3).svg";
 import tacosIcon from "../../public/img/FoodIcons/Yellow Cute Cartoon Pizza Food Logo (5).svg";
 import friesIcon from "../../public/img/FoodIcons/Yellow Cute Cartoon Pizza Food Logo (6).svg";
 import drinksIcon from "../../public/img/FoodIcons/Yellow Cute Cartoon Pizza Food Logo (7).svg";
 import cokeIcons from "../../public/img/FoodIcons/Yellow Cute Cartoon Pizza Food Logo (8).svg";
-import logo from "../../public/img/Yellow Cute Cartoon Pizza Food Logo.svg";
+import logo from "../../public/img/Yellow Cute Cartoon Pizza Food Logo.png";
 import NavMenu from "../NavMenu";
 
 const Navbar = () => {
   return (
-    <nav class="bg-[#C00B27]   ">
+    <nav>
       <div>
-        <div className=" text-gray-100">
+        <div className=" text-slate-900">
           <div className="flex items-center mx-auto container justify-center md:justify-between py-2">
             <marquee>
-              <span className="font-extrabold flex items-center text-gray-200 text-lg">
+              <span className="font-extrabold flex items-center text-slate-900 text-lg">
                 Call This Number <MdPhone className="m-2" /> 01773312233 to
                 place your order!
               </span>
@@ -32,7 +32,13 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <div class="container  flex items-center justify-center p-6 mx-auto text-gray-200 font-bold   capitalize ">
+      <div className="flex md:hidden justify-center">
+        <Image
+          className="hover:scale-150 md:hidden  transition-all w-36 h-36 duration-200 ease-in-out transform"
+          src={logo}
+        />
+      </div>
+      <div className="container  flex items-center justify-center p-6 mx-auto text-slate-900 font-bold   capitalize ">
         <div className="hidden md:block">
           <Image
             className="hover:scale-150 transition-all w-36 h-36 duration-200 ease-in-out transform"
