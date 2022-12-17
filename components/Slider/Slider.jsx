@@ -32,7 +32,7 @@ export default function Slider() {
       >
         {sliderImages.map((image, index) => (
           <SwiperSlide key={index}>
-            <Image className="w-full" src={image} />
+            <Image className="w-full object-contain" src={image} />
           </SwiperSlide>
         ))}
       </Swiper>

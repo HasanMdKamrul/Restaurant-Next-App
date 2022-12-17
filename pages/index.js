@@ -1,5 +1,6 @@
 import { Inter } from "@next/font/google";
 import Head from "next/head";
+import Pizza from "../components/Pizza/Pizza";
 import Slider from "../components/Slider/Slider";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -14,6 +15,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Slider />
+      {/* ** Pizza Cards */}
+      <Pizza />
     </>
   );
 }
