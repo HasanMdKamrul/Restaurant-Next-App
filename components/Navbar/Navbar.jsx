@@ -19,7 +19,7 @@ import NavMenu from "../NavMenu";
 
 const Navbar = () => {
   return (
-    <nav class="bg-[#C00B27] h-98  ">
+    <nav class="bg-[#C00B27]   ">
       <div>
         <div className=" text-gray-100">
           <div className="flex items-center mx-auto container justify-center md:justify-between py-2">
@@ -32,21 +32,23 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <div class="container  flex items-center justify-center p-6 mx-auto text-gray-200 font-bold  capitalize ">
-        <Image
-          className="hover:scale-150 transition-all duration-200 ease-in-out transform"
-          width={150}
-          height={100}
-          src={logo}
-        />
-        <NavMenu title="HOME" Icon={MdHome} />
-        <NavMenu title="PRODUCT" Icon={MdProductionQuantityLimits} />
-        <NavMenu title="MENU" Icon={MdFoodBank} />
-        <NavMenu title="EVENTS" Icon={MdEvent} />
-        <NavMenu title="BLOG" Icon={MdAppBlocking} />
-        <NavMenu title="CONTACT" Icon={MdContactPage} />
+      <div class="container  flex items-center justify-center p-6 mx-auto text-gray-200 font-bold   capitalize ">
+        <div className="hidden md:block">
+          <Image
+            className="hover:scale-150 transition-all w-36 h-36 duration-200 ease-in-out transform"
+            src={logo}
+          />
+        </div>
+        <div className="md:flex">
+          <NavMenu title="HOME" Icon={MdHome} />
+          <NavMenu title="PRODUCT" Icon={MdProductionQuantityLimits} />
+          <NavMenu title="MENU" Icon={MdFoodBank} />
+          <NavMenu title="EVENTS" Icon={MdEvent} />
+          <NavMenu title="BLOG" Icon={MdAppBlocking} />
+          <NavMenu title="CONTACT" Icon={MdContactPage} />
+        </div>
       </div>
-      <div className="flex justify-center mx-96">
+      <div className="md:flex justify-center hidden ">
         <div>
           <div className="flex ">
             <Image
