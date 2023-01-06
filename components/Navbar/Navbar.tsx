@@ -5,7 +5,6 @@ import {
   MdEvent,
   MdFoodBank,
   MdHome,
-  MdPhone,
   MdProductionQuantityLimits,
 } from "react-icons/md";
 import pizzaIcon from "../../public/img/FoodIcons/Yellow Cute Cartoon Pizza Food Logo (1).svg";
@@ -22,20 +21,21 @@ const Navbar = () => {
     <nav>
       <div>
         <div className=" text-slate-900">
-          <div className="flex items-center mx-auto container justify-center md:justify-between py-2">
+          {/* <div className="flex items-center mx-auto container justify-center md:justify-between py-2">
             <marquee>
               <span className="font-extrabold flex items-center text-slate-900 text-lg">
                 Call This Number <MdPhone className="m-2" /> 01773312233 to
                 place your order!
               </span>
             </marquee>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="flex md:hidden justify-center">
         <Image
           className="hover:scale-150 md:hidden  transition-all w-36 h-36 duration-200 ease-in-out transform"
           src={logo}
+          alt="logo"
         />
       </div>
       <div className="container  flex items-center justify-center p-6 mx-auto text-slate-900 font-bold   capitalize ">
@@ -43,6 +43,7 @@ const Navbar = () => {
           <Image
             className="hover:scale-150 transition-all w-36 h-36 duration-200 ease-in-out transform"
             src={logo}
+            alt="logo"
           />
         </div>
         <div className="md:flex">
@@ -58,36 +59,42 @@ const Navbar = () => {
         <div>
           <div className="flex ">
             <Image
+              alt="pizza"
               className="animate-pulse"
               src={pizzaIcon}
               width={150}
               height={100}
             />
             <Image
+              alt="burger"
               className="animate-pulse"
               src={burgerIcon}
               width={150}
               height={100}
             />
             <Image
+              alt="tacos"
               className="animate-pulse"
               src={tacosIcon}
               width={150}
               height={100}
             />
             <Image
+              alt="fries"
               className="animate-pulse"
               src={friesIcon}
               width={150}
               height={100}
             />
             <Image
+              alt="drinks"
               className="animate-pulse"
               src={drinksIcon}
               width={150}
               height={100}
             />
             <Image
+              alt="coke"
               className="animate-pulse"
               src={cokeIcons}
               width={150}

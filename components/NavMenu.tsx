@@ -1,4 +1,4 @@
-const NavMenu = ({ title, Icon }) => {
+const NavMenu = ({ title, Icon }: any) => {
   return (
     <>
       <div className="flex items-center flex-col group ">

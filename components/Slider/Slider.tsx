@@ -1,4 +1,3 @@
-import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -32,7 +31,7 @@ export default function Slider() {
       >
         {sliderImages.map((image, index) => (
           <SwiperSlide key={index}>
-            <Image className="w-full object-contain" src={image} />
+            <Image className="w-full object-contain" src={image} alt="" />
           </SwiperSlide>
         ))}
       </Swiper>
