@@ -1,8 +1,9 @@
-import burgerImage from "../../public/FoodImages/burger1.svg";
-import fries from "../../public/FoodImages/fries.svg";
-import pizzaImage1 from "../../public/FoodImages/pizza.svg";
-import tacos from "../../public/FoodImages/tacos.svg";
 import PizzaCard from "../PizzaCard/PizzaCard";
+// import burgerImage from "../../public/FoodImages/burger1.svg";
+import burgerImage from "../../../public/FoodImages/burger1.svg";
+import fries from "../../../public/FoodImages/fries.svg";
+import pizzaImage1 from "../../../public/FoodImages/pizza.svg";
+import tacos from "../../../public/FoodImages/tacos.svg";
 
 const cardData = [
   {

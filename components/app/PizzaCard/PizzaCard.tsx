@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "../../styles/Card.module.css";
+import styles from "../../../styles/Card.module.css";
 const PizzaCard = ({ card }: any) => {
   return (
     <div className={`${styles.card} bg-green-600`}>

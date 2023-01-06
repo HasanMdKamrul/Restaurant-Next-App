@@ -7,14 +7,14 @@ import {
   MdHome,
   MdProductionQuantityLimits,
 } from "react-icons/md";
-import pizzaIcon from "../../public/img/FoodIcons/Yellow Cute Cartoon Pizza Food Logo (1).svg";
-import burgerIcon from "../../public/img/FoodIcons/Yellow Cute Cartoon Pizza Food Logo (2).svg";
-import tacosIcon from "../../public/img/FoodIcons/Yellow Cute Cartoon Pizza Food Logo (5).svg";
-import friesIcon from "../../public/img/FoodIcons/Yellow Cute Cartoon Pizza Food Logo (6).svg";
-import drinksIcon from "../../public/img/FoodIcons/Yellow Cute Cartoon Pizza Food Logo (7).svg";
-import cokeIcons from "../../public/img/FoodIcons/Yellow Cute Cartoon Pizza Food Logo (8).svg";
-import logo from "../../public/img/Yellow Cute Cartoon Pizza Food Logo.png";
-import NavMenu from "../NavMenu";
+import pizzaIcon from "../../../public/img/FoodIcons/Yellow Cute Cartoon Pizza Food Logo (1).svg";
+import burgerIcon from "../../../public/img/FoodIcons/Yellow Cute Cartoon Pizza Food Logo (2).svg";
+import tacosIcon from "../../../public/img/FoodIcons/Yellow Cute Cartoon Pizza Food Logo (5).svg";
+import friesIcon from "../../../public/img/FoodIcons/Yellow Cute Cartoon Pizza Food Logo (6).svg";
+import drinksIcon from "../../../public/img/FoodIcons/Yellow Cute Cartoon Pizza Food Logo (7).svg";
+import cokeIcons from "../../../public/img/FoodIcons/Yellow Cute Cartoon Pizza Food Logo (8).svg";
+import logo from "../../../public/img/Yellow Cute Cartoon Pizza Food Logo.png";
+import NavMenu from "./NavMenu";
 
 const Navbar = () => {
   return (

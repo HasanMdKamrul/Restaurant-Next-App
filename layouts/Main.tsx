@@ -1,5 +1,5 @@
-import Footer from "../components/Footer/Footer";
-import Navbar from "../components/Navbar/Navbar";
+import Footer from "../components/core/Footer/Footer";
+import Navbar from "../components/core/Navbar/Navbar";
 
 const Main = ({ children }) => {
   return (

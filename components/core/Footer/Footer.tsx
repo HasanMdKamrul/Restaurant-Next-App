@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { MdFacebook } from "react-icons/md";
-import logo from "../../public/img/Yellow Cute Cartoon Pizza Food Logo.png";
+import logo from "../../../public/img/Yellow Cute Cartoon Pizza Food Logo.png";
 
 const navItems = (
   <>
