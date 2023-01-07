@@ -23,7 +23,7 @@ export default function Slider({ children }: any) {
         modules={[Pagination, Navigation]}
         className="mySwiper"
       >
-        {children.map((child: any) => (
+        {children?.map((child: any) => (
           <SwiperSlide className="flex">{child}</SwiperSlide>
         ))}
       </Swiper>
