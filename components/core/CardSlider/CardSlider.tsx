@@ -18,8 +18,8 @@ const CardSlider = ({ children }: any) => {
     <>
       <Swiper
         slidesPerView={4}
-        spaceBetween={30}
-        centeredSlides={true}
+        spaceBetween={0}
+        centeredSlides={false}
         pagination={{
           clickable: true,
         }}

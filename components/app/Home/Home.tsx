@@ -5,6 +5,7 @@ import image3 from "../../../public/FoodImages/red yellow minimalist art pizza f
 import image2 from "../../../public/FoodImages/red yellow minimalist art pizza facebook cover.png";
 import CardSlider from "../../core/CardSlider/CardSlider";
 import Slider from "../../core/Slider/Slider";
+import Partners from "../Partners/Partners";
 import Pizza from "../Pizza/Pizza";
 
 type Props = {};
@@ -20,6 +21,7 @@ const HomeComponent = (props: Props) => {
         <Image alt="" src={image2} className="w-full" />
         <Image alt="" src={image3} className="w-full" />
       </Slider>
+      <Partners />
       <Pizza />
       <CardSlider />
     </>
