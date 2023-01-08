@@ -9,6 +9,7 @@ import Slider from "../../core/Slider/Slider";
 import ClientReviews from "../ClientReviews/ClientReviews";
 import Partners from "../Partners/Partners";
 import Pizza from "../Pizza/Pizza";
+import ServicesComponent from "../ServicesComponent/ServicesComponent";
 
 type Props = {};
 
@@ -36,7 +37,10 @@ const HomeComponent = (props: Props) => {
         <ClientReviews />
         <ClientReviews />
       </CardSlider>
-      {/* ** Services */}
+      <ServicesComponent />
+      {/* ** Services 1.Dine In 2.Take Ways 3.Buffet*/}
+      {/* Trending */}
+      {/* ** Happy Customers */}
     </>
   );
 };
