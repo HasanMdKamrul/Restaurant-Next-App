@@ -36,6 +36,7 @@ const HomeComponent = (props: Props) => {
         <ClientReviews />
         <ClientReviews />
       </CardSlider>
+      {/* ** Services */}
     </>
   );
 };

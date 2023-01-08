@@ -28,7 +28,7 @@ const CardSlider = ({
     <>
       <Heading>{heading}</Heading>
       <Swiper
-        slidesPerView={`${slidesPerView}`}
+        slidesPerView={slidesPerView}
         spaceBetween={0}
         centeredSlides={false}
         pagination={{
