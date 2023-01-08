@@ -3,6 +3,7 @@ import Image from "next/image";
 import image1 from "../../../public/FoodImages/red yellow minimalist art pizza facebook cover (1).png";
 import image3 from "../../../public/FoodImages/red yellow minimalist art pizza facebook cover (2).png";
 import image2 from "../../../public/FoodImages/red yellow minimalist art pizza facebook cover.png";
+import { cardImages } from "../../constants/PizzaCardTwoData";
 import CardSlider from "../../core/CardSlider/CardSlider";
 import Slider from "../../core/Slider/Slider";
 import ClientReviews from "../ClientReviews/ClientReviews";
@@ -24,13 +25,17 @@ const HomeComponent = (props: Props) => {
       </Slider>
       <Partners />
       <Pizza />
-      <CardSlider />
-      <Slider>
+      <CardSlider
+        slidesPerView={4}
+        heading="Our Pizzas"
+        cardImages={cardImages}
+      />
+      <CardSlider slidesPerView={1} heading="Client Reviews">
         <ClientReviews />
         <ClientReviews />
         <ClientReviews />
         <ClientReviews />
-      </Slider>
+      </CardSlider>
     </>
   );
 };
