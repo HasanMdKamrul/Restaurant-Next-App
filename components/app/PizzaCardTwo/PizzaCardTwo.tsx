@@ -1,5 +1,3 @@
-import Image from "next/image";
-import styles from "../../../styles/PizzaCard.module.css";
 interface Props {
   imgSrc: string;
 }
@@ -7,31 +5,19 @@ interface Props {
 const PizzaCardTwo = ({ imgSrc }: Props) => {
   return (
     <>
-      <div className={styles.container}>
+      <div className="flex flex-col items-center relative justify-center w-full max-w-sm mx-auto transform transition-all ease-in-out hover:scale-105 ">
         <div
-          className={styles.cardtwo}
-          data-tilt
-          data-tilt-glare
-          data-tilt-max-glare="0.5"
-          data-tilt-scale="1.1"
-        >
-          <Image
-            className="hover:scale-105 transform transition duration-300 ease-in-out cursor-pointer w-full h-full object-cover rounded-3xl"
-            width={400}
-            height={400}
-            alt=""
-            src={imgSrc}
-          />
+          className="w-full h-64 bg-gray-300 bg-center bg-cover rounded-lg shadow-md"
+          style={{ backgroundImage: `url(${imgSrc})` }}
+        ></div>
 
-          <div className={styles.info}>
-            <h1>Pizza</h1>
-            <button
-              type="button"
-              className="inline-block px-6 py-2 border-2 border-white text-white font-medium text-xs leading-tight uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
-            >
-              Order Now
-            </button>
-          </div>
+        <div className="w-56 -mt-10 overflow-hidden  rounded-lg shadow-lg md:w-full bg-transparent flex justify-center">
+          <button className="btn btn-active absolute top-[50%] btn-ghost tracking-wide text-white btn-sm">
+            View Details
+          </button>
+          <h1 className="absolute top-[80%]">
+            <span className="text-white tracking-wider font-bold">Pizza</span>
+          </h1>
         </div>
       </div>
     </>

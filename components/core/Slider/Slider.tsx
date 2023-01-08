@@ -24,7 +24,7 @@ export default function Slider({ children }: any) {
         className="mySwiper"
       >
         {children?.map((child: any) => (
-          <SwiperSlide className="flex">{child}</SwiperSlide>
+          <SwiperSlide>{child}</SwiperSlide>
         ))}
       </Swiper>
     </>

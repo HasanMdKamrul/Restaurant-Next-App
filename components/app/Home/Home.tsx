@@ -5,6 +5,7 @@ import image3 from "../../../public/FoodImages/red yellow minimalist art pizza f
 import image2 from "../../../public/FoodImages/red yellow minimalist art pizza facebook cover.png";
 import CardSlider from "../../core/CardSlider/CardSlider";
 import Slider from "../../core/Slider/Slider";
+import ClientReviews from "../ClientReviews/ClientReviews";
 import Partners from "../Partners/Partners";
 import Pizza from "../Pizza/Pizza";
 
@@ -24,6 +25,12 @@ const HomeComponent = (props: Props) => {
       <Partners />
       <Pizza />
       <CardSlider />
+      <Slider>
+        <ClientReviews />
+        <ClientReviews />
+        <ClientReviews />
+        <ClientReviews />
+      </Slider>
     </>
   );
 };

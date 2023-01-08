@@ -11,11 +11,13 @@ import "swiper/css/pagination";
 import { Pagination } from "swiper";
 import PizzaCardTwo from "../../app/PizzaCardTwo/PizzaCardTwo";
 import { cardImages } from "../../constants/PizzaCardTwoData";
+import Heading from "../Heading/Heading";
 type Props = {};
 
 const CardSlider = ({ children }: any) => {
   return (
     <>
+      <Heading>Our Exclusive Pizzas</Heading>
       <Swiper
         slidesPerView={4}
         spaceBetween={0}
@@ -24,7 +26,7 @@ const CardSlider = ({ children }: any) => {
           clickable: true,
         }}
         modules={[Pagination]}
-        className="mySwiper my-12"
+        className="mySwiper my-12  "
       >
         {cardImages.map((cardImage) => (
           <SwiperSlide key={cardImage.id}>
