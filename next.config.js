@@ -6,6 +6,6 @@ const nextConfig = {
 module.exports = {
   nextConfig,
   images: {
-    domains: ["images.unsplash.com", "i.ibb.co"],
+    domains: ["images.unsplash.com", "i.ibb.co", "plus.unsplash.com"],
   },
 };

@@ -10,6 +10,7 @@ import ClientReviews from "../ClientReviews/ClientReviews";
 import Partners from "../Partners/Partners";
 import Pizza from "../Pizza/Pizza";
 import ServicesComponent from "../ServicesComponent/ServicesComponent";
+import Trending from "../Trending/Trending";
 
 type Props = {};
 
@@ -24,6 +25,7 @@ const HomeComponent = (props: Props) => {
         <Image alt="" src={image2} className="w-full" />
         <Image alt="" src={image3} className="w-full" />
       </Slider>
+      <ServicesComponent />
       <Partners />
       <Pizza />
       <CardSlider
@@ -37,8 +39,7 @@ const HomeComponent = (props: Props) => {
         <ClientReviews />
         <ClientReviews />
       </CardSlider>
-      <ServicesComponent />
-      {/* ** Services 1.Dine In 2.Take Ways 3.Buffet*/}
+      <Trending />
       {/* Trending */}
       {/* ** Happy Customers */}
     </>
