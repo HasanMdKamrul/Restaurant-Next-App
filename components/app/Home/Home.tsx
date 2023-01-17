@@ -40,7 +40,7 @@ const HomeComponent = (props: Props) => {
         <ClientReviews />
       </CardSlider>
       <Trending />
-      {/* Trending */}
+
       {/* ** Happy Customers */}
     </>
   );

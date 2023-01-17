@@ -39,7 +39,7 @@ const CardSlider = ({
       >
         {cardImages?.map((cardImage: any) => (
           <SwiperSlide key={cardImage.id}>
-            <PizzaCardTwo imgSrc={cardImage.imgSrc} />
+            <PizzaCardTwo id={cardImage?.id} imgSrc={cardImage.imgSrc} />
           </SwiperSlide>
         ))}
         {!cardImages &&
